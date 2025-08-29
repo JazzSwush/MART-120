@@ -1,0 +1,9 @@
+Jasmyn Johnston
+Professor Rachel Cronk
+Creative Coding 1
+28 August 2025
+GUI Vs CLI
+The world of technology revolves around computers. With these computers, users can interact by using different types of interfaces. There are two common interface systems that users use. They are known as Graphical User Interface (GUI) and Command-Line Interface (CLI). These two interfaces enable users to control their computers. They are both great, but they are also different from each other.
+	Visuals are key components to interactions on the computer. It helps users know what they are trying to do. Graphical User Interface or GUI uses visual elements to indicate something like buttons, menu bars, or even search icons. GUI are more user-friendly because of how interactive the interface is. Since the user would know what they are pressing. If there is a button, that says “Log In”, users are going to press that button to login. The button directs them to their path; this shows that GUI aid users through visual elements.
+	How does the computer know what to do? That is where Command-Line Interface or CLI comes in. CLI are text-based commands that perform the actions the users do. They are kind of behind the scenes of the interactions. They are more precision and control from the system using CLI, since it makes up the whole actions. The downside is that it is a bit harder to learn because CLI needs to be precise in order for the commands to work. 
+	Overall, both interfaces play a key role in our everyday life when technology is in use. GUI is more for design purposes while CLI is more on precision and behind the scenes.  
