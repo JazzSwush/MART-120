@@ -1,0 +1,29 @@
+span{
+    background-color: rgb(255, 255, 0);
+}
+h1 {
+    text-align: center;
+}
+body {
+    margin: 25px;
+}
+#specificColor{
+    color: darkgreen;
+    font-family: sans-serif;
+}
+.storyTitle{
+    font-family: 'Lucida Handwriting', cursive;
+}
+.favorites{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.italic{
+    font-style: italic;
+}
+.storyBody{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
