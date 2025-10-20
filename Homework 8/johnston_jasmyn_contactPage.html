@@ -1,0 +1,74 @@
+<html>
+    <head>
+    <title>Third Page</title>
+    <link rel="stylesheet" href="johnston_jasmyn_external.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+</head>
+
+<script>
+    function submission()
+{
+    var firstName = document.getElementById("fName").value;
+    var lastName = document.getElementById("lName").value;
+    var email = document.getElementById("email").value;
+    var agree = document.getElementById("agree").checked;
+
+    if(firstName === "" || lastName === "" || email === "" || !agree) {
+       document.getElementById("fName").style.borderColor = firstName === "" ? "red" : "";
+         document.getElementById("lName").style.borderColor = lastName === "" ? "red" : "";
+            document.getElementById("email").style.borderColor = email === "" ? "red" : "";
+            document.getElementById("agree").style.outline = !agree ? "2px solid red" : "";
+        return false;
+        
+    } else {
+        alert("Form submitted successfully!");
+    }
+}
+</script>
+<style>
+    h1 {font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    span {background-color: rgb(255, 255, 0);}
+    body {background-color: aliceblue; margin: 25px;;}
+    
+
+</style>
+<body>
+    <h1>Contact Us</h1>
+    <p></p>
+        <form action="">
+            <div>
+            <p>First Name: <input type="text" id="fName"></p>
+        </div>
+
+            <p>Last Name: <input type="text" id="lName"></p>
+            <p>Email: <input type="text" id="email"></p>
+            <p></p>
+            <p><h2><span>Terms of Agreement</h2></p>
+            </span>
+            <p>By providing your first name, last name, and email address, you agree to the following:</p>
+
+            <p><ol>
+                <li><span class="italic">Your information will be used solely for the purpose of contacting you regarding your inquiry.</li></span>
+                <li>Your information will not be shared with third parties without your explicit consent.</li>
+                <li>You have the right to request the deletion of your information at any time by contacting us.</li>
+                <li>We implement reasonable security measures to protect your information from unauthorized access.</li>
+                <li><span class="italic">By submitting this form, you acknowledge that you have read and understood these terms of agreement.</li></span>
+            </ol></p>
+            
+            <p><input type="checkbox" id="agree"> I agree to the terms and conditions.</p>
+            <p></p>
+            
+            <p><button type="button" class="btn btn-info" onclick="submission();" >Submit</button></p>
+        </form>
+    
+    <p></p>
+
+    <a href="johnston_jasmyn_homePage.html" style="text-decoration: none;" target="_blank">Home Page</a>
+
+    <p></p>
+
+    <a href="johnston_jasmyn_storyPage.html" style="text-decoration: none;" target="_blank">Story Page</a>
+</body>
+</html>
